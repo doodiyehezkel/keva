@@ -1,6 +1,7 @@
 @font-face {
   font-family: "noto-sans-heb";
-  src: url("/src/assets//font/NotoSansHebrew-VariableFont_wdth\,wght.ttf");
+  src: url('./assets/font/NotoSansHebrew.ttf');
+  font-weight: normal;
 }
 
 * {
