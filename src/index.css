@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "noto-sans-heb";
+  src: url("/src/assets//font/NotoSansHebrew-VariableFont_wdth\,wght.ttf");
+}
+
+* {
+  font-family: "noto-sans-heb";
+}
+
+html ,body {
+ 
+  direction: rtl;
+  margin: 0;
+  padding: 0;
+}

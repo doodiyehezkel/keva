@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-bottom: 50px;
+  }
+  
+  .title {
+    text-align: center;
+    margin: 0;
+    font-size: 5rem;
+  }
+  
+  .second-title {
+    text-align: center;
+    background-color: #2d496f;
+    padding: 1rem;
+    font-size: 3rem;
+    border-radius: 15px;
+    margin: 0;
+  }
