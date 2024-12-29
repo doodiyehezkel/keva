@@ -1,22 +1,23 @@
+import { createHashRouter, createRoutesFromElements, Route, RouterProvider } from 'react-router'
 import './App.css'
-import Cards from './components/cards/Cards'
-import Header from './components/header/Header'
+import RootLayout from './layout/RootLayout'
+import HomePage from './pages/home/HomePage'
+import WhoAreWePage from './pages/who-are-we/WhoAreWePage'
+
+
+const router = createHashRouter(
+  createRoutesFromElements(
+    <Route path='/' element={<RootLayout />}>
+      <Route index element={<HomePage />} />
+      <Route path='who-are-we' element={<WhoAreWePage />} />
+    </Route>
+  )
+)
 
 function App() {
 
   return (
-    <>
-    <div className='poligon'></div>
-      <Header />
-     <main>
-        {
-          <Cards cards={['סטודנטים' , 'מגוייסים למילואים' , 'טיפול אישי וזוגי' , 'קרן הסיוע']}  />
-        }
-     </main>
-     <footer>
-
-     </footer>
-    </>
+    <RouterProvider router={router}/>
   )
 }
 
