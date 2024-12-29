@@ -3,6 +3,7 @@ import './App.css'
 import RootLayout from './layout/RootLayout'
 import HomePage from './pages/home/HomePage'
 import WhoAreWePage from './pages/who-are-we/WhoAreWePage'
+import MedicinePage from './pages/medicine/MedicinePage'
 
 
 const router = createHashRouter(
@@ -10,6 +11,7 @@ const router = createHashRouter(
     <Route path='/' element={<RootLayout />}>
       <Route index element={<HomePage />} />
       <Route path='who-are-we' element={<WhoAreWePage />} />
+      <Route path='medicine' element={<MedicinePage />} />
     </Route>
   )
 )

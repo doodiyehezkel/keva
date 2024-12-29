@@ -15,7 +15,7 @@ export default function HomePage() {
                     },
                     {
                         text: 'רפואה',
-                        url: '/'
+                        url: 'medicine'
                     },
                     {
                         text: 'שכר',
