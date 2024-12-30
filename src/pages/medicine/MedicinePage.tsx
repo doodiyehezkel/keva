@@ -9,6 +9,8 @@ import MedicineSectionTwo from './section-2/MedicineSectionTwo';
 import MedicineSectionEight from './section-8/MedicineSectionEight';
 import MedicineSectionNine from './section-9/MedicineSectionNine';
 import MedicineSectionTen from './section-10/MedicineSectionTen';
+import MedicineSectionEleven from './section-11/MedicineSectionEleven';
+import MedicineSectionTwelve from './section-12/MedicineSectionTwelve';
 
 export default function MedicinePage() {
     return (
@@ -51,6 +53,12 @@ export default function MedicinePage() {
             </section>
             <section>
                 <MedicineSectionTen />
+            </section>
+            <section>
+                <MedicineSectionEleven />
+            </section>
+            <section>
+                <MedicineSectionTwelve />
             </section>
         </article>
     )
